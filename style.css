@@ -10,11 +10,20 @@ body {
     padding: 10px;
 }
 
+/* this is the main header part of the page  */
 #header-div {
-    border: 2px solid green
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
 
 }
 
-.head-one {
+.head-items {
     background-color: green;
 }
+
+#head-one {
+    background-color: blue;
+}
+/* this is the end part of the header */
+
