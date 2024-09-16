@@ -1,36 +1,74 @@
 body {
-    background-color: burlywood;
+    background-color: black;
 }
 
 #div-main {
-    background-color: rgb(186, 9, 9);
+    background-color: rgb(57, 52, 52);
     /* border: 20px solid blue; */
     height: 700px;
-    margin: 10px;
-    padding: 10px;
+    margin: 30px;
+    padding: 30px;
 }
 
-/* this is the main header part of the page  */
+/* this is the main header flex container part of the page  */
 #header-div {
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    height: 300px;
     display: flex;
-    justify-content: space-between;
-
+    
 }
 
 .head-items {
-    background-color: green;
+    background-color:rgb(57, 52, 52);
+    width: 00px;
+    height: 400px;
 }
 
 #head-one {
-    background-color: blue;
+    background-color:rgb(57, 52, 52);
+    width: 500px;
+    flex-grow: 3;
+}
+.h1-1 {
+    color: white;
+    text-align: center;
+    float: right;
+    padding-right: 300px;
+}
+
+.span-1 {
+    color: rgb(122, 181, 237);
+    font-size: medium;
+    padding: 0 auto;
+}
+
+#head-two {
+    /* align-items: flex-start; */
+    flex-grow: 4;
+
 }
 /* this is the end part of the header */
 
-#head-two {
+.ul-list {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    color: rgb(160, 154, 154);
+    padding: 5px;
+}
+
+#head-text {
+    color: pink;
+    flex-grow: 3;
 
 }
 
-#head-three {
-    
+strong {
+    color: white;
+}
+
+hr {
+    border: 2px solid white;
 }
