@@ -88,3 +88,17 @@ p {
     padding: 0px;
      */
 }
+
+/* this is the body css content */
+
+#body-div {
+    border: 1px solid green;
+    height: 800px;
+    display: flex;   
+     
+}
+
+.left-content {
+    width: 400px
+
+}
